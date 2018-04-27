@@ -7,8 +7,139 @@
     <title>Julio Rodrigues DEV</title>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Olá mundo :)</h1>
+    <header id="particles">
+        <div id="intro" class="intro">
+            <h1>JULIO RODRIGUES</h1>
+            <span>Web Developer</span>
+        </div>
+        
+        <div class="nav-comp">
+            <div class="container">
+                <div class="nav">
+                    <div class="row">
+                        <div class="col s12">
+                            <nav>
+                                <ul>
+                                    <li>Sobre</li>
+                                    <li>Projetos</li>
+                                    <li>Contatos</li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </header>
+    <section class="about-me">
+        <div class="container">
+            <h2>Sobre mim</h2>
+            <div class="row">
+                <div class="col s4">
+                    <div class="avatar-thumb">
+                        <img src="https://scontent.fgru4-1.fna.fbcdn.net/v/t1.0-9/19396969_1395641827191018_3822685294000959711_n.jpg?_nc_cat=0&oh=0f9bb9d96ae024eba8cb6087ef0cd5fe&oe=5B576B23" alt="">
+                    </div>
+                </div>
+                <div class="col s8">
+                    <div class="description">
+                        <p>
+                            Me Chamo Julio Rodrigues, tenho 25 anos, sou de São Paulo - Guarulhos.
+                            Comecei minha carreira em 2012, em uma startup de jogos digitais onde exercia a função de front-end. Em 2015 entrei para a agência MK/tbt, como desenvolvedor Full-stack, atuando com Web-sites, sistemas e aplicativos.
+                            Em 2016 decidi tomar um novo rumo para minha vida, entrando então para a agÊncia Rufiz, onde era o CTO, e responsável pelo Branding e desenvolvimento dos projetos.
+                            Como minha paixão sempre foi "codar", em 2017 decidi voltar para área apenas de dev, e então comecei me aprofundei em Mobile e eis que me apareceu uma oportunidade para trabalhar na Carguru, uma startup inovadora no mercado de Lavagem automotiva. Fui responsávle por montar toda a parte de front da aplicação, e aplicar casos de UX na mesma.
+                            No final de 2018 fui convidado para participar do time de devs da <a href="http://www.ornito.com.br" target="_blank">Ornito</a> onde estou desde então atuando como Front-end.
+                            Sou Gamer, Geek e Corinthiano. Tenho 1 filhinho Miguel <3 e sou noivo da mulher que faz a segunda melhor lasanha do mundo (Mom First!). 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="col s6">
+                    <div class="modality">
+                        <span>Front-end</span>
+                        <ul>
+                            <li>HTML, CSS3, JAVASCRIPT</li>
+                            <li>SASS, LESS, STYLUS</li>
+                            <li>JQUERY, VUEJS, REACT,ANGULAR 2+</li>
+                            <li>WEBPACK, GULP, NPM</li>
+                            <li>IONIC, REACTNATIVE</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col s6">
+                    <div class="modality">
+                        <span>Back-end</span>
+                        <ul>
+                            <li>PHP, NODEJS, C#</li>
+                            <li>CAKEPHP, EXPRESSJS</li>
+                            <li>MYSQL, MONGODB</li>
+                            <li>COMPOSER, NPM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projetos">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="row">
+                <div class="col s4">
+                    <div class="thumbs-projects">
+                        <img src="https://lh3.googleusercontent.com/zYMBUBA13HtHf7QTHa4e0ieBNZclqQLxUcy2uSuVKruUbbz_mTT5o4gR5cQz_eOlKwM=w1280-h703-rw" alt="">
+                        <div class="content-projects">
+                            <div class="row">
+                                <span>CarGuru</span>
+                            </div>
+                            <div class="row">
+                                <p>Aplicativo para lavagem automotiva delivery</p>
+                                <p><a href="https://play.google.com/store/apps/details?id=com.carguruclub.carguru">Veja mais</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="thumbs-projects">
+                        <img src="./thumbs/thumb-rufiz.png" alt="">
+                        <div class="content-projects">
+                            <div class="row">
+                                <span>Rufiz</span>
+                            </div>
+                            <div class="row">
+                                <p>Agência de Soluções em tecnologia</p>
+                                <p><a href="https://www.rufiz.com.br">Veja mais</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="thumbs-projects">
+                        <img src="./thumbs/thumb-astromelia.png" alt="">
+                        <div class="content-projects">
+                            <div class="row">
+                                <span>Astromelia</span>
+                            </div>
+                            <div class="row">
+                                <p>Website de eventos comemorativos</p>
+                                <p><a href="https://www.astromeliaeventos.com.br">Veja mais</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery.particleground.min.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>
