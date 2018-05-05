@@ -186,3 +186,8 @@ section#contatos {
 .border-shadow{
     box-shadow: 0px 8px 10px #0000001f;
 }
+@media screen and (max-width: 425px){
+    .skills ul li {
+        padding-left: 0
+    }
+}
