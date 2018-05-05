@@ -190,4 +190,8 @@ section#contatos {
     .skills ul li {
         padding-left: 0
     }
+    .avatar-thumb {
+        text-align: center;
+        margin-bottom: 35px;
+    }
 }
